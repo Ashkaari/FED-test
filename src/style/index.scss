@@ -1,0 +1,28 @@
+@mixin center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@import 'components/chat';
+@import 'components/flex';
+@import 'components/menu';
+
+.rc-intro {
+  background: #40718a;
+  padding: 10px;
+  text-align: center;
+  color: honeydew;
+  margin-bottom: 30px;
+  font-family: "Palatino Linotype";
+
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.content {
+  @include center;
+  flex-direction: column;
+  margin: 50px;
+}

@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: 200px;
+  border: 1px solid #07604C;
+
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+
+  margin: 10px auto;
+  color: black;
+  padding: 20px;
+}
+
+.inputField{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin-bottom: 10px;
+}
+
+.flex1 {
+  flex: 1 0 auto;
+  margin-right: 5px;
+}
+.flex2 {
+  flex: 1 2 auto;
+}
